@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+.app {
+  text-align: center;
+  padding-top: 100px;
+}
+.button {
+  padding: 0px 30px;
+  border-radius: 20px;
+  border: solid 1px rgb(2, 2, 255);
+  background-color: rgb(67, 67, 191);
+}
+.button:hover {
+  background-color: rgb(183, 183, 230);
+}
+.input {
+  border-radius: 5px;
+  padding-left: 4px;
+  color: black;
+  margin-bottom: 5px;
+  background-color: rgb(102, 130, 169);
+}
+.input:hover {
+  background-color: transparent;
+}
